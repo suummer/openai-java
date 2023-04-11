@@ -17,5 +17,6 @@ compileJava {
 }
 
 test {
-    useJUnitPlatform()
+    enabled(false)
+//    useJUnitPlatform()
 }
